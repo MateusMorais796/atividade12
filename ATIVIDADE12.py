@@ -1,17 +1,7 @@
-# Crie um programa que receba a idade de uma pessoa e classifique-a de acordo com as seguintes faixas etárias:
-# Criança (0-12 anos)
-# Adolescente (13-17 anos)
-# Adulto (18-59 anos)
-# Idoso (60 anos ou mais)
+# Crie um programa que receba a nota de um aluno e informe se ele foi aprovado ou reprovado. Considere que a média para aprovação é 7.
+nota = float(input("Digite sua nota "))
 
-idade = int(input("Digite sua idade "))
-
-if (idade<=12):
-    print("Você é uma criança")
-elif (idade>12) and (idade<18):
-    print("Você é um adolescente")
-
-if (idade>17) and (idade<60):
-    print("Você é um adulto")
-elif (idade>59):
-    print("Você é um idoso")
+if nota>=7:
+    print("Aprovado")
+else:
+    print("Reprovado")
